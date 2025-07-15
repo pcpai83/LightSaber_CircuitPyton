@@ -81,6 +81,46 @@ Permite brincar com luzes, sons e movimentos tal como nos filmes — tudo com um
 
 ---
 
+## 🖼️ gfx_bmp2bin — Ferramenta para Animações (BMP ➜ BIN)
+
+Este projeto inclui a pasta gfx_bmp2bin, com:
+
+bmp2bin.py: Script em Python para converter imagens BMP (linhas horizontais de frames) para ficheiros .bin usados como animações da lâmina.
+
+Exemplos de ficheiros .bmp e .bin para demonstração.
+
+Como usar
+Coloca as tuas animações BMP na pasta.
+
+Corre o script para converter:
+
+bash
+Copiar
+Editar
+python bmp2bin.py <pasta> <num_leds>
+<pasta>: Caminho da pasta com BMPs.
+
+<num_leds>: Quantos LEDs tem a tua lâmina.
+
+O script lê cada BMP, redimensiona para o número de LEDs, e gera um .bin pronto para usar no sabre.
+
+⚡ Tinting (Personalização de cor nas animações)
+Se o tinting estiver ativo numa animação (definido no JSON dessa animação), a cor da animação será alterada para usar apenas a banda de vermelho puro, isto é, toda a escala entre:
+
+preto (1,0,0)
+
+vermelho escuro (128,0,0)
+
+vermelho puro (255,0,0)
+
+rosa claro (255,128,128)
+
+quase branco (255,254,254)
+
+Assim, o efeito pode ser “tingido” dinamicamente conforme a cor da lâmina definida no menu ou pelo código.
+
+---
+
 ## 🙌 Créditos
 
 Projeto de hardware, firmware e 3D por **pcpai83**  
@@ -175,6 +215,46 @@ Inspired by DIY lightsaber projects and the Adafruit community.
 2. Copy all files to the board (`code.py`, `settings_menu.py`, `sounds/`, `gfx/`, etc.)
 3. Add all required libraries to the `lib/` folder
 4. (Optional) Personalize sounds and effects!
+
+---
+
+## 🖼️ gfx_bmp2bin — Animation Tool (BMP ➜ BIN)
+
+This project includes the gfx_bmp2bin folder, with:
+
+bmp2bin.py: Python script to convert BMP images (horizontal frame strips) into .bin animation files for the blade.
+
+Demo .bmp and .bin files included.
+
+How to use
+Put your BMP animation images in the folder.
+
+Run the script to convert:
+
+bash
+Copiar
+Editar
+python bmp2bin.py <folder> <num_leds>
+<folder>: Path to your BMP files.
+
+<num_leds>: Number of LEDs in your blade.
+
+The script reads each BMP, resizes each frame to match your LED count, and outputs a ready-to-use .bin animation file.
+
+⚡ Tinting (Dynamic Animation Coloring)
+If tinting is enabled for an animation (set in the animation's JSON), the colors will use only the pure red color band, meaning the animation will map between:
+
+black (1,0,0)
+
+dark red (128,0,0)
+
+pure red (255,0,0)
+
+light pink (255,128,128)
+
+near-white (255,254,254)
+
+This allows for dynamic "tinting" effects that follow the blade color chosen in the menu or set by code.
 
 ---
 
