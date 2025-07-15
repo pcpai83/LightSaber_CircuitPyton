@@ -1,0 +1,5 @@
+{
+  "preon": {"wav": "preon.wav", "bin": "preon1_140_full_72_inv.bin", "frame_time": 25, "tinting": false},
+  "poweron": {"wav": "poweron.wav", "bin": "poweron1_140_full_72_inv.bin", "frame_time": 30, "tinting": false},
+  "leds": {"wav": "", "bin": "leds.bin","frame_time": 10, "tinting": false}
+}

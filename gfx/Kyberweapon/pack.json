@@ -1,0 +1,28 @@
+{
+  "preon": {
+    "wav": "",
+    "bin": "preon1.bin",
+    "frame_time": 20
+  },
+  "poweron": {
+    "wav": "",
+    "bin": "poweron1.bin",
+    "frame_time": 20
+  },
+  "poweroff": {
+    "wav": "",
+    "bin": "poweroff1.bin",
+    "frame_time": 20
+  },
+  "pstoff": {
+    "wav": "",
+    "bin": "pstoff1.bin",
+    "frame_time": 20
+  },
+  "leds": {
+	  "wav": "",
+	  "bin": "leds.bin",
+	  "frame_time": 10,
+	  "tinting": true
+  }
+}

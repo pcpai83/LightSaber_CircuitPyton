@@ -1,0 +1,17 @@
+{
+  "poweron": {
+    "wav": "poweron.wav",
+    "bin": "poweron.bin",
+    "frame_time": 35
+  },
+  "poweroff": {
+    "wav": "poweroff.wav",
+    "bin": "poweroff.bin",
+    "frame_time": 35
+  },
+  "leds": {
+    "wav": "leds.wav",
+    "bin": "leds.bin",
+    "frame_time": 1
+  }
+}

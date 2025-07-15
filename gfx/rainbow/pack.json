@@ -1,0 +1,3 @@
+{
+  "leds": {"wav": "", "bin": "leds.bin","frame_time": 100, "tinting": false}
+}

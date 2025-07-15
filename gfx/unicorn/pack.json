@@ -1,0 +1,5 @@
+{
+  "poweroff": {"wav": "", "bin": "poweroff1.bin", "frame_time": 25, "tinting": false},
+  "poweron": {"wav": "", "bin": "poweron1.bin", "frame_time": 25, "tinting": false},
+  "leds": {"wav": "", "bin": "leds.bin","frame_time": 25, "tinting": false}
+}

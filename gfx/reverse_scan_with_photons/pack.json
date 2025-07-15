@@ -1,0 +1,7 @@
+{
+    "leds": {},
+    "preon": {},
+    "poweron": {},
+    "poweroff": {"wav": "", "bin": "poweroff6.bin", "frame_time": 25, "tinting": true},
+    "pstoff": {}
+}
