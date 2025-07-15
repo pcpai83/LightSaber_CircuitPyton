@@ -94,13 +94,11 @@ Coloca as tuas animações BMP na pasta.
 
 Corre o script para converter:
 
-bash
-Copiar
-Editar
-python bmp2bin.py <pasta> <num_leds>
-<pasta>: Caminho da pasta com BMPs.
+python bmp2bin.py "pasta" "num_leds"
 
-<num_leds>: Quantos LEDs tem a tua lâmina.
+pasta: Caminho da pasta com BMPs.
+
+num_leds: Quantos LEDs tem a tua lâmina.
 
 O script lê cada BMP, redimensiona para o número de LEDs, e gera um .bin pronto para usar no sabre.
 
@@ -231,13 +229,10 @@ Put your BMP animation images in the folder.
 
 Run the script to convert:
 
-bash
-Copiar
-Editar
-python bmp2bin.py <folder> <num_leds>
-<folder>: Path to your BMP files.
+python bmp2bin.py "folder" "num_leds"
+folder: Path to your BMP files folder.
 
-<num_leds>: Number of LEDs in your blade.
+num_leds: Number of LEDs in your blade.
 
 The script reads each BMP, resizes each frame to match your LED count, and outputs a ready-to-use .bin animation file.
 
