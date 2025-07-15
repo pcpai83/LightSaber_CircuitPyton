@@ -11,7 +11,7 @@ Projeto por **pcpai83**
 
 ### Sobre
 
-Este projeto é um **sabre de luz interativo** feito com CircuitPython 9.2.8, baseado na placa [Adafruit RP2040 Prop-Maker Feather com I2S Audio Amplifier](https://www.adafruit.com/product/4880).  
+Este projeto é um **sabre de luz interativo** feito com CircuitPython 9.2.8, baseado na placa [Adafruit RP2040 Prop-Maker Feather com I2S Audio Amplifier](https://www.adafruit.com/product/5768).  
 Permite brincar com luzes, sons e movimentos tal como nos filmes — tudo com um só botão, modos especiais, menu de configurações e animações incríveis!
 
 ---
@@ -92,7 +92,7 @@ Inspirado em projetos DIY de lightsaber e na comunidade Adafruit.
 
 ### About
 
-This project is an **interactive lightsaber** using CircuitPython 9.2.8 and the [Adafruit RP2040 Prop-Maker Feather with I2S Audio Amplifier](https://www.adafruit.com/product/4880).  
+This project is an **interactive lightsaber** using CircuitPython 9.2.8 and the [Adafruit RP2040 Prop-Maker Feather with I2S Audio Amplifier](https://www.adafruit.com/product/5768).  
 Enjoy movie-like light, sound and motion — all with a single button, special modes, onboard settings menu and cool FX animations!
 
 ---
